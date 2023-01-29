@@ -1,0 +1,8 @@
+<li *ngIf="guitar">
+  <section>
+    <img [src]="guitar.image" [alt]="guitar.model" class="block w-85">
+  </section>
+  <section>
+    <span class="text-2xl">{{guitar.model}} by {{guitar.manufacturer}}</span>
+  </section>
+</li>

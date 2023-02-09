@@ -36,8 +36,8 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
-./src/environments/environment.devolopment.ts
-./src/environments/environment.ts
+environment.devolopment.ts
+environment.ts
 # System files
 .DS_Store
 Thumbs.db
